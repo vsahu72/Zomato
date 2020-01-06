@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15508" systemVersion="19B88" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="LocationCD" representedClassName="LocationCD" syncable="YES" codeGenerationType="class">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="city" optional="YES" attributeType="String"/>
+        <attribute name="latitude" optional="YES" attributeType="String"/>
+        <attribute name="locality" optional="YES" attributeType="String"/>
+        <attribute name="locality_verbose" optional="YES" attributeType="String"/>
+        <attribute name="longitude" optional="YES" attributeType="String"/>
+        <attribute name="restaurentId" optional="YES" attributeType="String"/>
+        <attribute name="zipcode" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="RatingCD" representedClassName="RatingCD" syncable="YES" codeGenerationType="class">
+        <attribute name="aggregate_rating" optional="YES" attributeType="String"/>
+        <attribute name="restaurentId" optional="YES" attributeType="String"/>
+        <attribute name="votes" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="RestaurentCD" representedClassName="RestaurentCD" syncable="YES" codeGenerationType="class">
+        <attribute name="average_cost_for_two" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="cuisines" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="thumb" optional="YES" attributeType="String"/>
+        <attribute name="timings" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="RestaurentCD" positionX="-63" positionY="-18" width="128" height="148"/>
+        <element name="LocationCD" positionX="-54" positionY="45" width="128" height="28"/>
+        <element name="RatingCD" positionX="-36" positionY="27" width="128" height="28"/>
+    </elements>
+</model>
